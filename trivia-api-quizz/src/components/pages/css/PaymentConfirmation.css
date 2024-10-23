@@ -1,0 +1,30 @@
+.checkout{
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.checkout h1{
+    margin: 10px;
+}
+
+
+.btn-proceed {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    width: 20%;
+}
+
+.btn-proceed:hover{
+    background-color: #444;
+    color: #fff;
+}

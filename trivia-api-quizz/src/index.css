@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+html body {
+    background-color: #deb992;
+    min-height: 100vh;
+   
+   /* background-image: url('assets/background.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   margin: 0; */
+
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+
+}

@@ -1,0 +1,45 @@
+.header-container {
+    background-color: #333;
+    color: #fff;
+    max-width: calc(100% - 100px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 8px;
+}
+
+.header-container p {
+    animation: move-text 2.5s infinite;
+}
+
+/* Keyframes for animation */
+@keyframes move-text {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+        /* Start slightly above */
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(0);
+        /* Move to original position */
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(20px);
+        /* Move slightly below */
+    }
+}
+
+@media (max-width:768px) {
+    .header-container {
+        max-width: 90%;
+        border-radius: 13px;
+        padding: 8px;
+        
+    }
+}

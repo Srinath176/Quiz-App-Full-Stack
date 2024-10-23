@@ -1,0 +1,17 @@
+.navbar-custom{
+    max-width: calc(100% - 30px);
+    background-color: #fff;
+    margin-left: 15px;
+    border-radius: 15px;
+    box-sizing: border-box;
+
+}
+
+.premium-icon{
+    width: 30px;
+    height: auto;
+    margin: 3px;
+    color: #333;
+}
+
+

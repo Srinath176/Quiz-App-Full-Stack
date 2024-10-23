@@ -1,0 +1,41 @@
+.form-container {   
+  margin: auto;  
+  padding: 30px;   
+  background-color: white; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);   
+}  
+
+input.rounded-input {  
+  padding: 25px;
+  border-radius: 20px;  
+  height: 40px;  
+  border: 1px solid #d9d9d9;   
+  transition: border-color 0.3s;  
+}  
+
+input.rounded-input:focus {  
+  outline: none;   
+  border-color: #d9d9d9;  
+  box-shadow: 0 0 5px rgba(171, 190, 228, 0.6);  
+}    
+input.rounded-input:focus-visible {  
+  outline: none;  
+}
+button.rounded-button{
+  border-radius: 20px;
+}
+h1 {  
+  font-size: 2rem; /* Adjust heading size */  
+}  
+
+.error-message {  
+  margin-bottom: 15px; /* Space for error message */  
+}
+
+.googleAuth{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}

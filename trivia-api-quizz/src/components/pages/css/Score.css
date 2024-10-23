@@ -1,0 +1,102 @@
+.score-container {
+  max-width: 800px;
+  margin: 120px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #efedf2;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.8);
+}
+
+.score-circle {
+  width: 150px; /* Adjust the size as needed */
+  height: 150px; /* Keep the same as width for a perfect circle */
+  border-radius: 50%; /* This makes the div a circle */
+  background-color: #f0f0f0; /* Background color of the circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #d9d9d9; /* Border color and size */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
+}
+
+.score-text {
+  font-size: 24px; /* Adjust the font size as needed */
+  color: #333; /* Text color */
+  text-align: center;
+}
+
+.score-text hr {
+  border: none;
+  border-top: 1px solid #333; /* Color of the horizontal line */
+  margin: 10px 0; /* Space around the line */
+  width: 90%;
+}
+
+.score-container button {
+  width: 30%;
+  font-weight: 700;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+
+.score-container button:hover{
+  background-color: #444;
+  color: #fff;
+}
+
+@media (max-width: 800px) {
+  .score-container {
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 15px;
+  }
+  h1 {
+    font-size: 1.8em;
+  }
+  h2 {
+    font-size: 1.2em;
+  }
+  ul {
+    gap: 10px;
+  }
+  li {
+    width: 90%;
+    margin: 5px;
+  }
+  .score-container button {
+    padding: 8px;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  .score-container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 10px;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  ul {
+    gap: 5px;
+  }
+  li {
+    width: 95%;
+    margin: 2px;
+  }
+  .score-container button {
+    padding: 6px;
+    font-size: 0.8em;
+  }
+}

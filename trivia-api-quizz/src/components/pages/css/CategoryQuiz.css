@@ -1,0 +1,153 @@
+.quiz-container {
+    max-width: 800px;
+    margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #efedf2;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
+  }
+  
+  .wrapper {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: auto;
+    margin-top: 10px;
+    font-family: Open Sans, sans-serif;
+  }
+  
+  hr {
+    width: 25%;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  li {
+    width: 80%;
+    margin: 10px;
+    border: none;
+    text-wrap: nowrap;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  li:hover {
+    background-color: #d9d9d9;
+  }
+  
+  .quiz-container button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+    min-width: 100px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  
+  }
+  
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-success {
+    background-color: #7dd87d;
+  }
+  
+  .btn-danger {
+    font-weight: 700;
+    background-color: #e46161;
+  }
+  
+  button:disabled {
+    cursor: not-allowed;
+    opacity: 1;
+    font-weight: 500;
+  }
+  
+  .btn-submit{
+    font-weight: 700;
+    background-color: #333;
+    color: #fff;
+    
+  }
+  
+  
+  /* Media query for max-width 800px */
+  @media (max-width: 800px) {
+    .quiz-container {
+      max-width: 600px;
+      margin: 80px auto;
+      padding: 15px;
+    }
+    h1 {
+      font-size: 1.8em;
+    }
+    h2 {
+      font-size: 1.2em;
+    }
+    ul {
+      gap: 10px;
+    }
+    li {
+      width: 90%;
+      margin: 5px;
+    }
+    .quiz-container button {
+      padding: 8px;
+      font-size: 0.9em;
+    }
+  }
+  
+  /* Media query for max-width 480px */
+  @media (max-width: 480px) {
+    .quiz-container {
+      max-width: 400px;
+      margin: 40px auto;
+      padding: 10px;
+    }
+    h1 {
+      font-size: 1.5em;
+    }
+    h2 {
+      font-size: 1em;
+    }
+    ul {
+      gap: 5px;
+    }
+    li {
+      width: 95%;
+      margin: 2px;
+    }
+    .quiz-container button {
+      padding: 6px;
+      font-size: 0.8em;
+    }
+  }

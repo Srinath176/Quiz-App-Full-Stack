@@ -1,0 +1,13 @@
+.react-tel-input .form-control{
+    margin: auto !important;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,0.3)
+}
+
+input.form-control:focus{
+    outline: none;
+    border-color: #d9d9d9;  
+    box-shadow: 0 0 5px rgba(171, 190, 228, 0.6);
+}
+
